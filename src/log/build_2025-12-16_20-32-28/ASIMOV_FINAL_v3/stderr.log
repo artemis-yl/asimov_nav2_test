@@ -1,0 +1,6 @@
+WARNING: Package name "ASIMOV_FINAL_v3" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+[31mCMake Error at cmake_install.cmake:46 (file):
+  file INSTALL cannot find "/home/moon/gzb_ws/src/ASIMOV_FINAL_v3/textures":
+  No such file or directory.
+
+[0m

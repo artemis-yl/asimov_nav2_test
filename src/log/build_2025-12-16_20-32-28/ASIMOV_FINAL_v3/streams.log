@@ -1,0 +1,40 @@
+[0.110s] Invoking command in '/home/moon/gzb_ws/src/build/ASIMOV_FINAL_v3': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/moon/gzb_ws/src/ASIMOV_FINAL_v3 -DCMAKE_INSTALL_PREFIX=/home/moon/gzb_ws/src/install/ASIMOV_FINAL_v3
+[1.249s] -- The C compiler identification is GNU 11.4.0
+[1.939s] -- The CXX compiler identification is GNU 11.4.0
+[2.045s] -- Detecting C compiler ABI info
+[2.570s] -- Detecting C compiler ABI info - done
+[2.588s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.594s] -- Detecting C compile features
+[2.598s] -- Detecting C compile features - done
+[2.620s] -- Detecting CXX compiler ABI info
+[3.181s] -- Detecting CXX compiler ABI info - done
+[3.207s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.210s] -- Detecting CXX compile features
+[3.214s] -- Detecting CXX compile features - done
+[3.351s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.096s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[4.958s] WARNING: Package name "ASIMOV_FINAL_v3" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+[5.029s] -- Configuring done
+[5.051s] -- Generating done
+[5.062s] -- Build files have been written to: /home/moon/gzb_ws/src/build/ASIMOV_FINAL_v3
+[5.096s] Invoked command in '/home/moon/gzb_ws/src/build/ASIMOV_FINAL_v3' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/moon/gzb_ws/src/ASIMOV_FINAL_v3 -DCMAKE_INSTALL_PREFIX=/home/moon/gzb_ws/src/install/ASIMOV_FINAL_v3
+[5.100s] Invoking command in '/home/moon/gzb_ws/src/build/ASIMOV_FINAL_v3': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/moon/gzb_ws/src/build/ASIMOV_FINAL_v3 -- -j4 -l4
+[5.352s] Invoked command in '/home/moon/gzb_ws/src/build/ASIMOV_FINAL_v3' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/moon/gzb_ws/src/build/ASIMOV_FINAL_v3 -- -j4 -l4
+[5.418s] Invoking command in '/home/moon/gzb_ws/src/build/ASIMOV_FINAL_v3': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/moon/gzb_ws/src/build/ASIMOV_FINAL_v3
+[5.467s] -- Install configuration: ""
+[5.467s] -- Installing: /home/moon/gzb_ws/src/install/ASIMOV_FINAL_v3/share/ASIMOV_FINAL_v3/config
+[5.470s] -- Installing: /home/moon/gzb_ws/src/install/ASIMOV_FINAL_v3/share/ASIMOV_FINAL_v3/config/joint_names_ASIMOV_FINAL_v3.yaml
+[5.473s] -- Installing: /home/moon/gzb_ws/src/install/ASIMOV_FINAL_v3/share/ASIMOV_FINAL_v3/launch
+[5.473s] -- Installing: /home/moon/gzb_ws/src/install/ASIMOV_FINAL_v3/share/ASIMOV_FINAL_v3/launch/display.launch.py
+[5.475s] -- Installing: /home/moon/gzb_ws/src/install/ASIMOV_FINAL_v3/share/ASIMOV_FINAL_v3/meshes
+[5.478s] -- Installing: /home/moon/gzb_ws/src/install/ASIMOV_FINAL_v3/share/ASIMOV_FINAL_v3/meshes/RL_wheel.STL
+[5.521s] -- Installing: /home/moon/gzb_ws/src/install/ASIMOV_FINAL_v3/share/ASIMOV_FINAL_v3/meshes/RR_wheel.STL
+[5.573s] -- Installing: /home/moon/gzb_ws/src/install/ASIMOV_FINAL_v3/share/ASIMOV_FINAL_v3/meshes/FL_wheel.STL
+[5.621s] -- Installing: /home/moon/gzb_ws/src/install/ASIMOV_FINAL_v3/share/ASIMOV_FINAL_v3/meshes/base_link.STL
+[6.014s] -- Installing: /home/moon/gzb_ws/src/install/ASIMOV_FINAL_v3/share/ASIMOV_FINAL_v3/meshes/FR_wheel.STL
+[6.061s] [31mCMake Error at cmake_install.cmake:46 (file):
+[6.062s]   file INSTALL cannot find "/home/moon/gzb_ws/src/ASIMOV_FINAL_v3/textures":
+[6.062s]   No such file or directory.
+[6.062s] 
+[6.063s] [0m
+[6.071s] Invoked command in '/home/moon/gzb_ws/src/build/ASIMOV_FINAL_v3' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/moon/gzb_ws/src/build/ASIMOV_FINAL_v3

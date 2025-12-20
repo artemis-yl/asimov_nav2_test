@@ -1,0 +1,35 @@
+[0.075s] Invoking command in '/home/moon/gzb_ws/src/build/ASIMOV_FINAL_v3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/moon/gzb_ws/src/build/ASIMOV_FINAL_v3 -- -j4 -l4
+[0.342s] Invoked command in '/home/moon/gzb_ws/src/build/ASIMOV_FINAL_v3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/moon/gzb_ws/src/build/ASIMOV_FINAL_v3 -- -j4 -l4
+[0.415s] Invoking command in '/home/moon/gzb_ws/src/build/ASIMOV_FINAL_v3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/moon/gzb_ws/src/build/ASIMOV_FINAL_v3
+[0.461s] -- Install configuration: ""
+[0.462s] -- Up-to-date: /home/moon/gzb_ws/src/install/ASIMOV_FINAL_v3/share/ASIMOV_FINAL_v3/config
+[0.462s] -- Up-to-date: /home/moon/gzb_ws/src/install/ASIMOV_FINAL_v3/share/ASIMOV_FINAL_v3/config/joint_names_ASIMOV_FINAL_v3.yaml
+[0.465s] -- Up-to-date: /home/moon/gzb_ws/src/install/ASIMOV_FINAL_v3/share/ASIMOV_FINAL_v3/launch
+[0.465s] -- Installing: /home/moon/gzb_ws/src/install/ASIMOV_FINAL_v3/share/ASIMOV_FINAL_v3/launch/display.launch.py
+[0.466s] -- Up-to-date: /home/moon/gzb_ws/src/install/ASIMOV_FINAL_v3/share/ASIMOV_FINAL_v3/meshes
+[0.466s] -- Up-to-date: /home/moon/gzb_ws/src/install/ASIMOV_FINAL_v3/share/ASIMOV_FINAL_v3/meshes/RL_wheel.STL
+[0.470s] -- Up-to-date: /home/moon/gzb_ws/src/install/ASIMOV_FINAL_v3/share/ASIMOV_FINAL_v3/meshes/RR_wheel.STL
+[0.470s] -- Up-to-date: /home/moon/gzb_ws/src/install/ASIMOV_FINAL_v3/share/ASIMOV_FINAL_v3/meshes/FL_wheel.STL
+[0.470s] -- Up-to-date: /home/moon/gzb_ws/src/install/ASIMOV_FINAL_v3/share/ASIMOV_FINAL_v3/meshes/base_link.STL
+[0.471s] -- Up-to-date: /home/moon/gzb_ws/src/install/ASIMOV_FINAL_v3/share/ASIMOV_FINAL_v3/meshes/FR_wheel.STL
+[0.471s] -- Up-to-date: /home/moon/gzb_ws/src/install/ASIMOV_FINAL_v3/share/ASIMOV_FINAL_v3/urdf
+[0.472s] -- Up-to-date: /home/moon/gzb_ws/src/install/ASIMOV_FINAL_v3/share/ASIMOV_FINAL_v3/urdf/ASIMOV_FINAL_v3.csv
+[0.472s] -- Up-to-date: /home/moon/gzb_ws/src/install/ASIMOV_FINAL_v3/share/ASIMOV_FINAL_v3/urdf/ASIMOV_FINAL_v3.urdf
+[0.472s] -- Up-to-date: /home/moon/gzb_ws/src/install/ASIMOV_FINAL_v3/share/ASIMOV_FINAL_v3/rviz
+[0.473s] -- Up-to-date: /home/moon/gzb_ws/src/install/ASIMOV_FINAL_v3/share/ASIMOV_FINAL_v3/rviz/config.rviz
+[0.473s] -- Up-to-date: /home/moon/gzb_ws/src/install/ASIMOV_FINAL_v3/share/ament_index/resource_index/package_run_dependencies/ASIMOV_FINAL_v3
+[0.475s] -- Up-to-date: /home/moon/gzb_ws/src/install/ASIMOV_FINAL_v3/share/ament_index/resource_index/parent_prefix_path/ASIMOV_FINAL_v3
+[0.477s] -- Up-to-date: /home/moon/gzb_ws/src/install/ASIMOV_FINAL_v3/share/ASIMOV_FINAL_v3/environment/ament_prefix_path.sh
+[0.477s] -- Up-to-date: /home/moon/gzb_ws/src/install/ASIMOV_FINAL_v3/share/ASIMOV_FINAL_v3/environment/ament_prefix_path.dsv
+[0.477s] -- Up-to-date: /home/moon/gzb_ws/src/install/ASIMOV_FINAL_v3/share/ASIMOV_FINAL_v3/environment/path.sh
+[0.478s] -- Up-to-date: /home/moon/gzb_ws/src/install/ASIMOV_FINAL_v3/share/ASIMOV_FINAL_v3/environment/path.dsv
+[0.479s] -- Up-to-date: /home/moon/gzb_ws/src/install/ASIMOV_FINAL_v3/share/ASIMOV_FINAL_v3/local_setup.bash
+[0.479s] -- Up-to-date: /home/moon/gzb_ws/src/install/ASIMOV_FINAL_v3/share/ASIMOV_FINAL_v3/local_setup.sh
+[0.479s] -- Up-to-date: /home/moon/gzb_ws/src/install/ASIMOV_FINAL_v3/share/ASIMOV_FINAL_v3/local_setup.zsh
+[0.480s] -- Up-to-date: /home/moon/gzb_ws/src/install/ASIMOV_FINAL_v3/share/ASIMOV_FINAL_v3/local_setup.dsv
+[0.480s] -- Up-to-date: /home/moon/gzb_ws/src/install/ASIMOV_FINAL_v3/share/ASIMOV_FINAL_v3/package.dsv
+[0.480s] -- Up-to-date: /home/moon/gzb_ws/src/install/ASIMOV_FINAL_v3/share/ament_index/resource_index/packages/ASIMOV_FINAL_v3
+[0.482s] -- Up-to-date: /home/moon/gzb_ws/src/install/ASIMOV_FINAL_v3/share/ASIMOV_FINAL_v3/cmake/ASIMOV_FINAL_v3Config.cmake
+[0.482s] -- Up-to-date: /home/moon/gzb_ws/src/install/ASIMOV_FINAL_v3/share/ASIMOV_FINAL_v3/cmake/ASIMOV_FINAL_v3Config-version.cmake
+[0.483s] -- Up-to-date: /home/moon/gzb_ws/src/install/ASIMOV_FINAL_v3/share/ASIMOV_FINAL_v3/package.xml
+[0.488s] Invoked command in '/home/moon/gzb_ws/src/build/ASIMOV_FINAL_v3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/moon/gzb_ws/src/build/ASIMOV_FINAL_v3

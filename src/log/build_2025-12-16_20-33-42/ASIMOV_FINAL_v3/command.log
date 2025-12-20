@@ -1,0 +1,4 @@
+Invoking command in '/home/moon/gzb_ws/src/build/ASIMOV_FINAL_v3': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/moon/gzb_ws/src/build/ASIMOV_FINAL_v3 -- -j4 -l4
+Invoked command in '/home/moon/gzb_ws/src/build/ASIMOV_FINAL_v3' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/moon/gzb_ws/src/build/ASIMOV_FINAL_v3 -- -j4 -l4
+Invoking command in '/home/moon/gzb_ws/src/build/ASIMOV_FINAL_v3': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/moon/gzb_ws/src/build/ASIMOV_FINAL_v3
+Invoked command in '/home/moon/gzb_ws/src/build/ASIMOV_FINAL_v3' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/moon/gzb_ws/src/build/ASIMOV_FINAL_v3
