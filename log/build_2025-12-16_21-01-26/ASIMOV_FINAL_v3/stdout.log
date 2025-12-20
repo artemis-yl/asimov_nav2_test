@@ -1,0 +1,48 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/moon/gzb_ws/build/ASIMOV_FINAL_v3
+-- Install configuration: ""
+-- Installing: /home/moon/gzb_ws/install/ASIMOV_FINAL_v3/share/ASIMOV_FINAL_v3/config
+-- Installing: /home/moon/gzb_ws/install/ASIMOV_FINAL_v3/share/ASIMOV_FINAL_v3/config/joint_names_ASIMOV_FINAL_v3.yaml
+-- Installing: /home/moon/gzb_ws/install/ASIMOV_FINAL_v3/share/ASIMOV_FINAL_v3/launch
+-- Installing: /home/moon/gzb_ws/install/ASIMOV_FINAL_v3/share/ASIMOV_FINAL_v3/launch/display.launch.py
+-- Installing: /home/moon/gzb_ws/install/ASIMOV_FINAL_v3/share/ASIMOV_FINAL_v3/meshes
+-- Installing: /home/moon/gzb_ws/install/ASIMOV_FINAL_v3/share/ASIMOV_FINAL_v3/meshes/RL_wheel.STL
+-- Installing: /home/moon/gzb_ws/install/ASIMOV_FINAL_v3/share/ASIMOV_FINAL_v3/meshes/RR_wheel.STL
+-- Installing: /home/moon/gzb_ws/install/ASIMOV_FINAL_v3/share/ASIMOV_FINAL_v3/meshes/FL_wheel.STL
+-- Installing: /home/moon/gzb_ws/install/ASIMOV_FINAL_v3/share/ASIMOV_FINAL_v3/meshes/base_link.STL
+-- Installing: /home/moon/gzb_ws/install/ASIMOV_FINAL_v3/share/ASIMOV_FINAL_v3/meshes/FR_wheel.STL
+-- Installing: /home/moon/gzb_ws/install/ASIMOV_FINAL_v3/share/ASIMOV_FINAL_v3/urdf
+-- Installing: /home/moon/gzb_ws/install/ASIMOV_FINAL_v3/share/ASIMOV_FINAL_v3/urdf/ASIMOV_FINAL_v3.csv
+-- Installing: /home/moon/gzb_ws/install/ASIMOV_FINAL_v3/share/ASIMOV_FINAL_v3/urdf/ASIMOV_FINAL_v3.urdf
+-- Installing: /home/moon/gzb_ws/install/ASIMOV_FINAL_v3/share/ASIMOV_FINAL_v3/rviz
+-- Installing: /home/moon/gzb_ws/install/ASIMOV_FINAL_v3/share/ASIMOV_FINAL_v3/rviz/config.rviz
+-- Installing: /home/moon/gzb_ws/install/ASIMOV_FINAL_v3/share/ament_index/resource_index/package_run_dependencies/ASIMOV_FINAL_v3
+-- Installing: /home/moon/gzb_ws/install/ASIMOV_FINAL_v3/share/ament_index/resource_index/parent_prefix_path/ASIMOV_FINAL_v3
+-- Installing: /home/moon/gzb_ws/install/ASIMOV_FINAL_v3/share/ASIMOV_FINAL_v3/environment/ament_prefix_path.sh
+-- Installing: /home/moon/gzb_ws/install/ASIMOV_FINAL_v3/share/ASIMOV_FINAL_v3/environment/ament_prefix_path.dsv
+-- Installing: /home/moon/gzb_ws/install/ASIMOV_FINAL_v3/share/ASIMOV_FINAL_v3/environment/path.sh
+-- Installing: /home/moon/gzb_ws/install/ASIMOV_FINAL_v3/share/ASIMOV_FINAL_v3/environment/path.dsv
+-- Installing: /home/moon/gzb_ws/install/ASIMOV_FINAL_v3/share/ASIMOV_FINAL_v3/local_setup.bash
+-- Installing: /home/moon/gzb_ws/install/ASIMOV_FINAL_v3/share/ASIMOV_FINAL_v3/local_setup.sh
+-- Installing: /home/moon/gzb_ws/install/ASIMOV_FINAL_v3/share/ASIMOV_FINAL_v3/local_setup.zsh
+-- Installing: /home/moon/gzb_ws/install/ASIMOV_FINAL_v3/share/ASIMOV_FINAL_v3/local_setup.dsv
+-- Installing: /home/moon/gzb_ws/install/ASIMOV_FINAL_v3/share/ASIMOV_FINAL_v3/package.dsv
+-- Installing: /home/moon/gzb_ws/install/ASIMOV_FINAL_v3/share/ament_index/resource_index/packages/ASIMOV_FINAL_v3
+-- Installing: /home/moon/gzb_ws/install/ASIMOV_FINAL_v3/share/ASIMOV_FINAL_v3/cmake/ASIMOV_FINAL_v3Config.cmake
+-- Installing: /home/moon/gzb_ws/install/ASIMOV_FINAL_v3/share/ASIMOV_FINAL_v3/cmake/ASIMOV_FINAL_v3Config-version.cmake
+-- Installing: /home/moon/gzb_ws/install/ASIMOV_FINAL_v3/share/ASIMOV_FINAL_v3/package.xml
