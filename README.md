@@ -1,3 +1,6 @@
+## main directory
+[src/ASIMOV_FINAL_v3 ](https://github.com/artemis-yl/asimov_nav2_test/tree/main/src/ASIMOV_FINAL_v3)
+
 ## key links
 https://github.com/mvipin/perceptor/tree/main
   - implements ros2_controls, nav2, EKF, and a handheld controller. uses LIDAR, wheel encoders and an IMU for sensors.
