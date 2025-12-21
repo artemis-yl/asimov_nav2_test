@@ -1,6 +1,4 @@
-## implement nav2 as per their setip guide along with antonia's instructions
-overall, look at these links
-
+## key links
 https://github.com/mvipin/perceptor/tree/main
   - implements ros2_controls, nav2, EKF, and a handheld controller. uses LIDAR, wheel encoders and an IMU for sensors.
     
@@ -9,13 +7,30 @@ https://github.com/tonitonitonitoni/asimov2026/tree/main
     
 https://docs.nav2.org/setup_guides/index.html
   - nav2 set up guide, follow gazebo classic version unless that changes
-    
+  - https://github.com/ros-navigation/navigation2_tutorials/blob/rolling/sam_bot_description/config/nav2_params.yaml
+      - nav2's example from the guide
 
+## overall list of files
+1) URDF for overall, combines all from robot body to sensors
+2) URDF for robot body
+3) URDF for Orbbec Gemini 2 depth camera
+4) URDF for motorized RGB turret camera
+5) URDF for LIDAR
+6) URDF for IMU
+7) launch/display.launch.py file
+   - may want to create seperate launch.py files for navigation2, sensors, camera, the physical controller, etc
+   - look at perceptor for how each module has been seperated https://github.com/mvipin/perceptor/tree/main/launch
+   - also one per gazebo simulation scenario, already there in asimov2026
+8) rviz/config.rviz
+9) config/nav2_params.yaml
+
+    
+## overall nav2 things to do
 1) Create the URDF files i.e. description/robot.urdf.xacro
-    - create a file per each camera/sensor i.e. Orbbec Gemini 2 depth camera, motorized RGB turret camera, LIAR, IMU, (don't think we have wheel encoders).
+    - create a file per each camera/sensor i.e. Orbbec Gemini 2 depth camera, motorized RGB turret camera, LIDAR, IMU, (don't think we have wheel encoders).
         - some like the orbec have urdf.xacro files already made, so prob best to just google and see
             - https://github.com/westonrobot-dev/orbbec_sdk_ros2/blob/v2-main/orbbec_description/urdf/gemini2.urdf.xarco
-    - for gazebou simulation, each file/thing needs its own gazebou reference
+    - for gazebo simulation, each file/thing needs its own gazebo reference
         - also, eachs sensor need its plugin set up to ensure it will publish its sensor_msgs/X
         -  https://docs.nav2.org/setup_guides/sensors/setup_sensors_gz_classic.html
     - https://docs.nav2.org/setup_guides/urdf/setup_urdf.html
@@ -44,8 +59,9 @@ https://docs.nav2.org/setup_guides/index.html
     - https://docs.nav2.org/setup_guides/odom/setup_odom_gz_classic.html
     - https://control.ros.org/kilted/doc/getting_started/getting_started.html#running-the-framework-for-your-robot
         - Antonia outlined using the Diff dRive plugin https://github.com/ros-controls/ros2_controllers/blob/master/diff_drive_controller/doc/userdoc.rst      
-    - 1) create an YAML file in config folder
+    - 1) create an YAML file in config folder, just copy from nav2's sam_bot or use the one in asimov2026
     - 2) edit the URDF to include the <ros2_control> required tags
+        - asimov and sam_bot both have some already, but we probably need to edit?
         - https://control.ros.org/rolling/doc/getting_started/getting_started.html#hardware-description-in-urdf
         - https://github.com/ros-controls/roadmap/blob/master/design_drafts/components_architecture_and_urdf_examples.md
         - https://github.com/mvipin/perceptor/blob/main/description/ros2_control.xacro
@@ -84,7 +100,7 @@ https://docs.nav2.org/setup_guides/index.html
     - edit the footprint parameter inside nav2_params.yaml to match ASIMOV or new robot
     - should publish /local_costmap/published_footprint
       
-8) implement the navigation plugins, which will include the **obstable avoidnace algs**
+8) implement the navigation plugins, which will include the **obstable avoidance algs**
     - https://docs.nav2.org/configuration/index.html
     - https://docs.nav2.org/setup_guides/algorithm/select_algorithm.html
     - should be all done inside /nav2_params.yaml
@@ -106,8 +122,10 @@ https://docs.nav2.org/setup_guides/index.html
     - 5) we can implement many more navigation plugins, like CollisionMoniter
         - https://docs.nav2.org/plugins/index.html
         - https://github.com/mvipin/perceptor/blob/main/config/nav2_params.yaml @ line 358 for collison monitor example
-    - since we should be copying from github.com/ros-navigation/navigation2_tutorials/blob/rolling/sam_bot_description/config/nav2_params.yaml most will be already set up, but needs to be changed for specific plugins 
-      
+    - since we should be copying from github.com/ros-navigation/navigation2_tutorials/blob/rolling/sam_bot_description/config/nav2_params.yaml most will be already set up, but needs to be changed for specific plugins
+    - 6) configure more specific behavoir trees if required. default in base nav2_params.yaml file are 'default_nav_through_poses_bt_xml' and 'default_nav_to_pose_bt_xml' 
+
+    
    
 
 
