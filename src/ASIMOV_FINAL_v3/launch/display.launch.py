@@ -43,6 +43,19 @@ def generate_launch_description():
         #arguments=['-d' + os.path.join(get_package_share_directory(package_name), 'config', 'config.rviz')]
     )
 
+    #ros2_control controller manager node ?
+    # https://github.com/ros-controls/ros2_control/blob/humble/controller_manager/doc/userdoc.rst
+    control_node = launch_ros.actions.Node(
+        package="controller_manager",
+        executable="ros2_control_node",
+        parameters=[robot_controllers],
+        output="both",
+        remappings=[
+            ("~/robot_description", "/robot_description"),
+        ],
+    )
+    
+
     return launch.LaunchDescription([
         launch.actions.DeclareLaunchArgument(name='gui', default_value='True',
                                             description='This is a flag for joint_state_publisher_gui'),
@@ -51,5 +64,6 @@ def generate_launch_description():
         robot_state_publisher_node,
         joint_state_publisher_node,
         joint_state_publisher_gui_node,
-        rviz_node
+        rviz_node,
+        control_node # ros2_controls
     ]) 
